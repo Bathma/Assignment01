@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const app = express()
 
 
-mongoose.connect('mongodb+srv://john:GHlSts3qpFXRdv3R@cluster0.gbqnvph.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('mongodb+srv://bathmamano:<db_password>@project01.qjpuxzl.mongodb.net/?retryWrites=true&w=majority&appName=Project01');
 
 const productRoutes = require('./routes/product')
 const logger = require('./middleware/logger')
